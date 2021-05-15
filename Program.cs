@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OopWithCSharp.OOP;
+using System;
 
 namespace OopWithCSharp
 {
@@ -6,6 +7,9 @@ namespace OopWithCSharp
     {
         static void Main(string[] args)
         {
+            ExpressionBodiedMembers obj1 = new ExpressionBodiedMembers("Ridwanul", "Isalm");
+            Console.WriteLine(obj1.ToString());
+            Console.WriteLine(obj1.UpperCaseName());
             Console.WriteLine("Hello World!");
         }
     }
